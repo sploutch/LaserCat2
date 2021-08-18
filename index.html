@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>JCVD</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=1, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+        <link rel="shortcut icon" href="img/laser-bigard.png"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="theme-color" content="#383c48" />
+		<link rel="icon" sizes="400x312" href="img/laser-bigard.png"/>
+		<link rel="apple-touch-icon" href="img/laser-bigard.png"/>
+		<script src="js/lasercat.js?2.0"></script>
+		
+	</head>
+	<body>
+		<script>		
+			document.addEventListener("DOMContentLoaded", function() {	
+				LaserCat2.loadMode();
+				JCVD.init();
+				LaserCat2.addDoubleTapEvent();
+			});		
+		</script>
+	</body>
+</html>
